@@ -5,8 +5,8 @@ const cx = className.bind(styles);
 const NavigationBar: React.FC = () => {
  return(
      <div className={cx('wrapper')}>
-         <div>Home</div>
-         <div>About Us</div>
+         <a href="/">Home</a>
+         <a href="/about-us">About Us</a>
          <div>Tools</div>
          <div>Guideline</div>
          <div>Payment</div>   
