@@ -2,6 +2,7 @@ import { createBrowserHistory } from 'history';
 import React, { Suspense } from 'react';
 import { Route, Router, Switch } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
 import About from './containers/About';
 import HomePage from './containers/HomePage';
@@ -19,6 +20,7 @@ function App() {
 
           </Switch>
         </Suspense>
+        <Footer/>
       </Router>
     </div>
   );
