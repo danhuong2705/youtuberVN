@@ -1,6 +1,6 @@
 .wrapper {
-    background-color: #00bfff;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--primary-text);
     display: flex;
     justify-content: space-between;
     height: 55px;

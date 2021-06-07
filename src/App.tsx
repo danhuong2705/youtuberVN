@@ -1,7 +1,7 @@
 import { createBrowserHistory } from 'history';
 import React, { Suspense } from 'react';
 import { Route, Router, Switch } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
 import About from './containers/About';
