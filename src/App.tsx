@@ -10,19 +10,17 @@ export const browserHistory = createBrowserHistory();
 
 function App() {
   return (
-    <div className="App">
-      <Router history={browserHistory}>
-        <NavigationBar />
-        <Suspense fallback={<div>Loading...</div>}>
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/about-us" component={About} />
+    <Router history={browserHistory}>
+      <NavigationBar />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/about-us" component={About} />
 
-          </Switch>
-        </Suspense>
-        <Footer/>
-      </Router>
-    </div>
+        </Switch>
+      </Suspense>
+      <Footer />
+    </Router>
   );
 }
 

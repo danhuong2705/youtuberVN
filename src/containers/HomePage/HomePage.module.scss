@@ -1,0 +1,28 @@
+.homepage {
+  .carousel {
+    height: 600px;
+    > div {
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .introduce-section {
+    padding: 100px 0;
+    .container {
+      max-width: 100%;
+      padding: 0 40px;
+      .title {
+        text-align: center;
+        font-weight: 200;
+        margin: 0 0 10px;
+        color: #212121;
+        font-size: 36px;
+      }
+      .sub-title {
+        font-size: 14px;
+        text-align: center;
+        line-height: 22px;
+      }
+    }
+  }
+}

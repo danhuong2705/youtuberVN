@@ -1,8 +1,47 @@
 .wrapper {
-    background-color: var(--primary-color);
-    color: var(--primary-text);
+  background-color: var(--primary-color);
+  color: var(--primary-text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  .logo {
+    flex: 1;
+    margin-left: 40px;
     display: flex;
-    justify-content: space-between;
-    height: 55px;
     align-items: center;
+    height: 55px;
+    cursor: pointer;
+    .logo-img {
+      width: 50px;
+      margin-right: 8px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  .menu {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    a {
+      height: 100%;
+      width: 120px;
+      padding: 0 16px;
+      color: #fff;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      height: 55px;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
 }

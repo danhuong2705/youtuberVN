@@ -1,11 +1,14 @@
 .wrapper {
-    background-color: #000000;
-    color: #ffffff;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 150px;
-    align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+  }
 }

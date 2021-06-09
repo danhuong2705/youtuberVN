@@ -4,14 +4,14 @@ import styles from './Footer.module.scss';
 
 const cx = className.bind(styles);
 const Footer: React.FC = () => {
-    return(
+    return (
         <div className={cx('wrapper')}>
-        <a href="/">Home</a>
-        <a href="/about-us">About Us</a>
-        <div>Tools</div>
-        <div>Guideline</div>
-        <div>Payment</div>   
-    </div>
+            <a href="/">Home</a>
+            <a href="/about-us">About Us</a>
+            <a href="/">Tools</a>
+            <a href="/">Guideline</a>
+            <a href="/">Payment</a>
+        </div>
     )
 }
 
