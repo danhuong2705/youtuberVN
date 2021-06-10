@@ -22,6 +22,53 @@
         font-size: 14px;
         text-align: center;
         line-height: 22px;
+        font-family: Nunito-SemiBold;
+        color: #212121;
+        .hight-light {
+          color: var(--primary-color);
+        }
+      }
+      .features {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 50px 100px 80px 100px;
+        .feature {
+          margin: 20px;
+          width: 50%;
+          max-width: 600px;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          .fea-img {
+            margin-right: 16px;
+          }
+          .fea-content {
+            display: flex;
+            flex-direction: column;
+            .fea-title {
+              font-family: Nunito-SemiBold;
+              margin-bottom: 8px;
+              color: #212121;
+            }
+          }
+        }
+      }
+      .plan-wrapper {
+        .title {
+          text-align: center;
+          color: #212121;
+          font-size: 30px;
+          font-family: Nunito-Bold, sans-serif;
+        }
+        .sub-title {
+          text-align: center;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: Nunito-Regular;
+          color: #777;
+          margin: 35px;
+        }
       }
     }
   }

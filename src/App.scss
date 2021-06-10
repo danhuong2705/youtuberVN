@@ -1,4 +1,15 @@
-
+@font-face {
+  font-family: Nunito-Regular;
+  src: url('./assets/fonts/Nunito-Regular.ttf');
+}
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url('./assets/fonts/Nunito-SemiBold.ttf');
+}
+@font-face {
+  font-family: Nunito-Bold;
+  src: url('./assets/fonts/Nunito-Bold.ttf');
+}
 :root {
   --primary-color: #259b24;
   --primary-text: #fff;
@@ -10,5 +21,8 @@ body {
   width: 100%;
   margin: 0;
   display: flex;
+  color: #777;;
   flex-direction: column;
+  font-family: Nunito-Regular, sans-serif;
+  background-color: #fafafa;
 }
