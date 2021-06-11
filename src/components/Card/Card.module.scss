@@ -1,0 +1,18 @@
+.card-wrapper {
+  padding: 50px 40px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 4px #eaeaea;
+  color: #212121;
+  max-width: 360px;
+  width: 33%;
+
+  .title {
+    text-align: center;
+    border-bottom: 10px solid #259b24;
+    padding-bottom: 15px;
+    color: #259b24; 
+    font-weight: 700;
+    margin: 0 0 10px; 
+    font-size: 24px;
+}
+}

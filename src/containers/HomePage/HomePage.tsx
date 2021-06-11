@@ -8,6 +8,7 @@ import fea1 from '../../assets/icons/fea1-3.png';
 import fea2 from '../../assets/icons/fea2-3.png';
 import fea3 from '../../assets/icons/fea3-3.png';
 import fea4 from '../../assets/icons/fea4-3.png';
+import Card from "../../components/Card";
 
 const cx = classnames.bind(styles);
 const HomePage: React.FC = () => {
@@ -84,6 +85,9 @@ const HomePage: React.FC = () => {
             </h2>
             <div className={cx('sub-title')}>
               CHECK OUT OUR SECTION TO FIND A SERVICE THAT WORKS FOR YOU.
+            </div>
+            <div>
+              <Card price={9.99} plan={''} />
             </div>
           </div>
         </div>
